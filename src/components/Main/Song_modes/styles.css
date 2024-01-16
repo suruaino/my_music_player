@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.song_modes{
+    display: flex;
+    justify-content: center;
+    gap: .5em;
+    
+}
+.song_modes button{
+    background-color: transparent;
+    transition: .5s;
+}
+.song_modes button:hover{
+    border: 1px solid #111;
+}
+.song_modes button:active{
+    background-color: #111;
+}

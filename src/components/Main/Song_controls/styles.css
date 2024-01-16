@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.controlbx{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: .5em;
+}
+.controlbx button{
+    height: 2rem;
+    background-color: transparent;
+    /* border: 1px solid #111; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+}
+.controlbx button:hover{
+    background-color: #111;
+}

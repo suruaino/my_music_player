@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.song_details{
+    padding: 4rem 0;
+}
+.song_details img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    box-shadow: 0 0 12px;
+    animation: playing-image infinite 20s linear;
+}
+@keyframes playing-image {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* @media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+      animation: logo-spin infinite 20s linear;
+    }
+  } */

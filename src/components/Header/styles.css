@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.player_header{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.menu{
+    background-color: whitesmoke;
+    height: 2px;
+    width: 20px;
+    position: relative;
+    /* margin: -4px 0; */
+}
+.menu::before,
+.menu::after{
+    content: "";
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: red;
+    height: 2px;
+    width: 16px;
+    position: absolute;
+    right: 0;
+}
+.menu::before{
+    top: -7px;
+    /* transform: translateX(4px); */
+}
+.menu::after{
+    top: 7px;
+    /* transform: translateX(4px); */
+}
