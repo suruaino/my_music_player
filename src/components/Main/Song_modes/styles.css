@@ -6,6 +6,7 @@
 .song_modes{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: .5em;
     
 }
@@ -18,4 +19,31 @@
 }
 .song_modes button:active{
     background-color: #111;
+}
+.song_modes #song_list{
+    width: 4px;
+    height: 10px;
+    display: grid;
+    justify-content: center;
+}
+.song_modes #song_list .bar{
+    background-color: whitesmoke;
+    height: 2px;
+    width: 20px;
+    position: relative;
+}
+.song_modes #song_list .bar::before,
+.song_modes #song_list .bar::after{
+    content: "";
+    background-color: whitesmoke;
+    display: block;
+    height: 2px;
+    width: 20px;
+    position: absolute;
+}
+.song_modes #song_list .bar::before{
+    top: -5px;
+}
+.song_modes #song_list .bar::after{
+    bottom: -5px;
 }
