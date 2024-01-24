@@ -47,3 +47,6 @@
 .song_modes #song_list .bar::after{
     bottom: -5px;
 }
+@media (prefers-color-scheme: dark){
+    
+}

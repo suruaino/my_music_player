@@ -18,6 +18,12 @@
     align-items: center;
     transition: .3s;
 }
+.controlbx button:active{
+    outline: 2px solid whitesmoke;
+}
+.controlbx button:nth-child(2){
+    border: 1px solid whitesmoke
+}
 .controlbx button:hover{
     background-color: #111;
 }
